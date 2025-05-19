@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact VK Fabrication - Welding & Steel Experts</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Get in touch with VK Fabrication for custom welding, gates, grills, steel structures and other metal works in Delhi/NCR.">
+    <style>
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-form, .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background: #ff4d4d;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .info-item {
+            margin-bottom: 20px;
+        }
+
+        .info-item p {
+            margin: 5px 0;
+        }
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 999;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: background 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background: #128C7E;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>VK FABRICATION</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" style="background-image: url('images/contact-banner.jpg');">
+    <div class="container">
+        <h2>Get In Touch With Us</h2>
+        <p>Have a project in mind? Let's discuss your fabrication needs.</p>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="container contact-container">
+        
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="https://formsubmit.co/YOUR_EMAIL @example.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                
+                <!-- Hidden Fields -->
+                <input type="hidden" name="_subject" value="New Lead from VK Fabrication Contact Form">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://your-github-page.github.io/thank-you.html ">
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="info-item">
+                <h3>📍 Our Address</h3>
+                <p>No. 123, Industrial Area, Delhi - 110001<br/>
+                   Near Metro Station, Rohini</p>
+            </div>
+            <div class="info-item">
+                <h3>📞 Call Us</h3>
+                <p>+91 98765 43210</p>
+            </div>
+            <div class="info-item">
+                <h3>💬 WhatsApp</h3>
+                <p><a href="https://wa.me/919876543210 " target="_blank">+91 98765 43210</a></p>
+            </div>
+            <div class="info-item">
+                <h3>📧 Email Us</h3>
+                <p><a href="mailto:info@vkfabrication.in">info@vkfabrication.in</a></p>
+            </div>
+
+            <!-- Google Map Embed -->
+            <div class="info-item">
+                <h3>🗺️ Find Us</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb= !1m18!1m12!1m3!1d3503.625698991265!2d77.15454131447556!3d28.613939382419626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a4efc6b65d%3A0x64fcd6ad9fbdfe0f!2sDelhi!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 VK Fabrication. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919876543210 " class="whatsapp-btn" target="_blank">💬 WhatsApp Us</a>
+
+</body>
+</html>

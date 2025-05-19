@@ -1,0 +1,9 @@
+vk-fabrication/
+│
+├── index.html         ← Main Home Page
+├── styles.css         ← Styling for the site
+├── script.js          ← Interactivity and animations
+├── portfolio.html     ← Portfolio/Projects Page
+├── contact.html       ← Contact Us Page
+├── images/            ← All your images go here
+└── README.md          ← Description of your project
